@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leif Sawitzki Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   </head>
   <body>
     <header class="site-header">
-      <nav class="header-menu">
+      <nav class="header-menu" id="navbar">
         <ul class="nav-bar">
-          <li><a href="/about">About</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="#/about">About</a></li>
+          <li><a href="#/projects">Projects</a></li>
+          <li><a href="#/contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -61,25 +63,46 @@
       <ul class="about-me-list">
         <li class="about-list-item">Coffee Addict ☕</li>
         <li class="about-list-item">LotR > PewPeW</li>
-        <li class="about-list-item">FC Barcelona, olé
+        <li class="about-list-item">FC Barçelona, olé!
         <li class="about-list-item">Based in Germany</li>
         </ul>
       </div>
     </section>
-    <section class="projects-section">
-      <h2 class="projects-heading">Look at some of my projects</h2>
+    <section class="projects-section" id="projects">
+      <h2 class="project-tile">Look at some of my projects</h2>
       <div class="projects-container">
         <div class="project">
-          <h3>Shopify AI Agent - "Luna"</h3>
-          <p>Used n8n and python</p>
-         <a href="/project-luna" traget="_blank"><img src="https://cdn.midjourney.com/6b6f9764-e801-4f05-81b8-5f5d61316b17/0_0.png" alt="picture of 8-Bit Model in front of a store" class="project-img"></a>
+          <h3>Custom Storefront</h3>
+          <p class="projects-text">with Shopify Liquid</p>
+         <a href="/project-luna" traget="_blank"><img src="https://github.com/leifgustavo/single-page/blob/main/gustavoo_designs_pixel_art_of_a_traditional_Japanese_convenie_6081f366-ce34-4622-8905-aee4a1ddc933_0.gif?raw=true" alt="picture of 8-Bit Model in front of a store" class="project-img"></a>
           </div>
            <div class="project">
           <h3>Shopify AI Agent - "Luna"</h3>
-          <p>Used n8n and python</p>
-         <a href="/project-luna" traget="_blank"><img src="https://cdn.midjourney.com/u/cc70bd2d-7565-426c-b431-b375d32d3a9f/141d1aa6bdb088a8dd9e2f32e6484e1dd0ce0824a0049be2f2eb8dd1cba38654_384_N.gif" alt="picture of 8-Bit Model in front of a store" class="project-img"></a>
+          <p class="projects-text">Used n8n and python</p>
+         <a href="/project-luna" traget="_blank"><img src="https://github.com/leifgustavo/single-page/blob/main/gustavoo_designs_8-bit_styled_female_agent_with_brown_hair_an_b192f78d-6e69-4aba-8e35-a2c1d31f758a_3.gif?raw=true" alt="picture of 8-Bit Model in front of a store" class="project-img"></a>
           </div>
+    <div class="project">
+          <h3>Shopify - App Development</h3>
+          <p class="projects-text">Used Node.js</p>
+         <a href="/project-luna" traget="_blank"><img src="https://github.com/leifgustavo/single-page/blob/main/gustavoo_designs_8-bit_pixel_art_ultra-wide_aspect_ratio_31.__21fab769-bb47-41cb-a38f-ad54cd6d928f_0.gif?raw=true" alt="picture of 8-Bit Model in front of a store" class="project-img"></a>
+          </div>      
         </div>
       </section>
+      <section class="social-section">
+        <h3>If you like my work, feel free to connect :)</h3>
+        <div class="social-container">
+           <div class="social-icons">
+    <a href="/linkedin-profile" target="_blank" aria-label="LinkedIn" class="linkedin" id="profile-link">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="/github-profile" target="_blank" aria-label="GitHub" class="github" id="profile-link">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="/instagram-profile" target="_blank" aria-label="Instagram" class="instagram" id="profile-link">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+          </div>
+        </section>
   </body>
 </html>
